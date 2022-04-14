@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #fefefe;
+    font-family: 'Cardo', serif;
+}
+
+.logo-img{
+    max-width: 150px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: small;
+}
+
+.page-container{
+    padding: 64px;
+}
+
+.page-title{
+    font-size: medium;
+}
+
+.footer{
+    background-color: #f3ebe6;
+}
+
+.border{
+    border-style: solid;
+}
+
+.footer-contacts{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.footer-contacts-title{
+    font-size: small;
+}
+
+.footer-contacts-text{
+    font-size: small;
+    margin: 0px;
+}
+
+.footer-nav {
+    display: inline-block;
+    width: 58%;
+}
+
+.footer-copyright {
+    text-align: right;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.footer-copyright-title {
+    font-size: small;
+}
+
+.footer-copyright-text{
+    font-size: small;
+}
+
+.footer-nav-menu{
+    border-top: 1px solid black;
+    padding: 16px;
+}

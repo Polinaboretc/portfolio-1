@@ -3,9 +3,11 @@
 html, body{
     margin: 0px;
     padding: 0px;
+    height: 3000px;
     text-align: center;
     background-color: #fefefe;
     font-family: 'Cardo', serif;
+    position: relative;
 }
 
 .logo-img{
@@ -30,6 +32,11 @@ html, body{
 
 .footer{
     background-color: #f3ebe6;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
 }
 
 .border{
@@ -62,7 +69,8 @@ html, body{
     text-align: right;
     display: inline-block;
     width: 20%;
-    height: 100%;
+    box-sizing: border-box;
+
 }
 
 .footer-copyright-title {
@@ -76,4 +84,39 @@ html, body{
 .footer-nav-menu{
     border-top: 1px solid black;
     padding: 16px;
+}
+
+.div-photo{
+    width: 1080px;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.photo-text{
+
+    display: inline-block;
+    height: 400px;  
+    box-sizing: border-box;
+    width: 44%;
+    position: relative;
+    top: -384px;
+    padding-left: 30px;
+}
+
+.immagine{
+    display: inline-block;
+    height: 400px;
+    background-color: aqua;
+    width:min-content;
+    box-sizing: border-box;
+
+
+}
+
+.resize{
+    height: 400px;
 }
